@@ -24,3 +24,11 @@
 	-moz-animation: $animations;
 	animation: $animations;
 }
+
+@mixin clearfix {
+	&::after {
+		display: table;
+		clear: both;
+		content: "";
+	}
+}
