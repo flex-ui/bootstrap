@@ -17,7 +17,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "bem": "*"
+  "devDependencies": {
+    "bem": "~0.2.1"
   }
 }
